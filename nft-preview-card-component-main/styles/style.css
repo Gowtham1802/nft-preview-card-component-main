@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 
+Soft blue: hsl(215, 51%, 70%) - Cyan: hsl(178, 100%, 50%) ### Neutral - Very dark blue (main BG): hsl(217, 54%, 11%) - Very dark blue (card BG): hsl(216, 50%, 16%) - Very dark blue (line): hsl(215, 32%, 27%) - White: hsl(0, 0%, 100%)
+
+
+*/
+
+.box_1 {
+  background-color: hsl(216, 50%, 16%);
+  width: 18rem;
+  border-radius: 15px;
+  padding: 1rem;
+}
+.image{
+  width: 16rem;
+}
+.image img{
+  width: 100%;
+  object-fit: contain;
+  -o-object-fit: cover;
+}
+
+.Equilibrium_pic {
+  border-radius: 8px;
+}
+
+.content h3 {
+  font-weight: 555;
+  padding: 1rem 0px;
+  font-size: 19px;
+}
+
+.content a{
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+.content a:hover{
+  color: hsl(178, 100%, 50%);
+}
+
+.content p {
+  font-weight: 30;
+  font-size: 16px;
+  padding: 0.7rem 0rem;
+  color: hsl(215, 51%, 70%);
+}
+/* content ether value and clock in a single block */
+
+.content-value{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.ethereum_value{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.ethereum_value p{
+  color: hsl(178, 100%, 50%);
+  padding-left: 7px;
+  display: inline-block;
+  font-size: 1rem;
+}
+
+.ether-img{
+  width: 0.6rem;
+}
+
+.clock p {
+  color: hsl(215, 51%, 70%);
+  padding-left: 4px;
+  display: inline-block;
+  font-size: 1rem;
+}
+
+.clock{
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.clock-pic {
+  width: 1rem;
+}
+  /* display: inline-block; */
+
+/* border top gives a line */
+.border-line{
+  border-top: 1px solid hsl(215, 32%, 27%);
+  margin-top: 1rem;
+}
+/* avatar pic */
+.creation_box{
+  padding: 1rem 0rem 0rem;
+  color: hsl(215, 51%, 70%);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.creation_box p{
+  display: inline-block;
+  padding-left: 16px;
+  margin: 0%;
+}
+.creation_box span{
+  color: hsl(0, 0%, 100%);
+}
+.avatar-img{
+  width: 100%;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 60%;
+}
+.avt-img{
+  width: 2rem;
+}
+.creation_box a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+
+.creation_box a:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+
