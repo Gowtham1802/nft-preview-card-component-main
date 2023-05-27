@@ -33,7 +33,7 @@ Soft blue: hsl(215, 51%, 70%) - Cyan: hsl(178, 100%, 50%) ### Neutral - Very dar
   -o-object-fit: cover;
 }
 
-.Equilibrium_pic {
+.Equilibrium_pic{
   border-radius: 8px;
   cursor: pointer;
 }
